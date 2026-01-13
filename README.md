@@ -3,6 +3,8 @@
 > 🎨 An Alma SKILL for generating manga/illustration images via local ComfyUI API
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Twitter](https://img.shields.io/badge/Twitter-@norsizu-1DA1F2?style=flat&logo=twitter)](https://x.com/norsizu)
+[![Civitai](https://img.shields.io/badge/Civitai-norsizu-blue?style=flat)](https://civitai.com/user/norsizu)
 
 ## ✨ Features
 
@@ -17,24 +19,24 @@
 ## 📋 Prerequisites
 
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI) running locally or on a server
-- [Alma](https://github.com/yetone/alma) AI assistant
-- Z-Image model: `z_image_turbo_bf16.safetensors`
+- [Alma](https://alma.now/) AI assistant
+- [Z-Image](https://github.com/Tongyi-MAI/Z-Image) model: `z_image_turbo_bf16.safetensors`
 - Required ComfyUI nodes:
   - `UltimateSDUpscale` (for upscaling)
   - `LoadImageFromHttpURL` (for upscaling from URL)
 
 ### Optional LoRA Models
 
-For style transfer, you'll need LoRA models. You can:
-- Train your own LoRA models
-- Download from [Civitai](https://civitai.com/)
+For style transfer, you'll need LoRA models from my Civitai:
+- **Hojo Tsukasa Style**: [Download from Civitai](https://civitai.com/models/2298525/zanshou-kin-tsukasa-hojo-style)
+- **Satoshi Urushihara Style**: [Download from Civitai](https://civitai.com/models/2287746/zanshou-kin-z-image-satoshi-original-style)
 
 ## 🚀 Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/comfyui-zimage-skill.git
+git clone https://github.com/norsizu/comfyui-zimage-skill.git
 ```
 
 ### 2. Install to Alma skills directory
@@ -62,7 +64,7 @@ SERVER = "localhost:8188"  # Your ComfyUI server address
 Update LoRA paths in `SKILL.md` to match your ComfyUI models directory:
 
 ```bash
---lora "YOUR_LORA_FOLDER\\your-lora-file.safetensors"
+--lora "YOUR_LORA_FOLDER\\z-image-hoko.safetensors"
 ```
 
 ## 📁 Project Structure
@@ -126,80 +128,18 @@ python3 generate_manga_highres.py \
 | Theme | Urban, mature women | Sci-fi, fantasy warriors |
 | Trigger | `Zanshou_kin_Hojo` | `sato` |
 
-## 🔧 Customization
+## 👋 About Me
 
-### Adding New Characters
-
-1. Create a new character file in `data/`:
-
-```python
-# data/new_character.py
-NEW_CHARACTER_APPEARANCE = "description of character appearance..."
-
-OUTFITS = {
-    "casual": {
-        "full": "full body outfit description...",
-        "upper": "upper body outfit description..."
-    }
-}
-```
-
-2. Create a new generation script or modify existing ones
-
-### Adding New Outfits
-
-Edit `data/riko_character.py`:
-
-```python
-OUTFITS = {
-    # ... existing outfits ...
-    
-    "new_outfit": {
-        "full": "detailed description for full body...",
-        "upper": "detailed description for upper body..."
-    }
-}
-```
-
-## 📝 Workflow Details
-
-### Generation Parameters
-
-| Mode | Steps | CFG | Resolution | Timeout |
-|------|-------|-----|------------|---------|
-| Quick | 6 | 1.0 | 1024×1368 | 60s |
-| High-Res | 20 | 1.5 | 1536×2048 | 180s |
-| Upscale | 8 | 1.5 | 1.5× input | 180s |
-
-### Required ComfyUI Models
-
-| Type | Model Name |
-|------|------------|
-| UNet | `z_image_turbo_bf16.safetensors` |
-| CLIP | `qwen_3_4b.safetensors` |
-| VAE | `ae.safetensors` |
-| Upscaler (Photo) | `RealESRGAN_x4plus.pth` |
-| Upscaler (Manga) | `4x_MangaJaNai_2048p_V1_ESRGAN_70k.pth` |
+- **Twitter**: [@norsizu](https://x.com/norsizu)
+- **Civitai**: [norsizu](https://civitai.com/user/norsizu)
 
 ## 🙏 Acknowledgments
 
-- [Alma](https://github.com/yetone/alma) by [@yetone](https://twitter.com/yetone) - Amazing AI assistant with SKILL support
+- [Alma](https://alma.now/) by [@yetone](https://twitter.com/yetone) - Amazing AI assistant with SKILL support
 - [skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator) by [@huangserva](https://twitter.com/huangserva) - Inspiration for this project
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - Powerful and modular Stable Diffusion GUI
-- [Z-Image](https://huggingface.co/Freepik/flux.1-lite-8B-alpha) - Base model for generation
+- [Z-Image](https://github.com/Tongyi-MAI/Z-Image) - Base model for generation
 
 ## 📄 License
 
 MIT License - Feel free to use, modify, and distribute.
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Share your custom characters/styles
-
----
-
-**Note**: This SKILL is designed for personal use with locally-trained LoRA models. The character definitions and style guides are examples - customize them for your own needs!
